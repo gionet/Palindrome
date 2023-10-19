@@ -35,6 +35,8 @@ def main():
     head = None
     tail = None
     
+    InputString = InputString.replace(' ', '') # Remove all spaces
+    
     for char in InputString.lower().strip():
         if char not in TrashSymbolsString:
             if not head:
