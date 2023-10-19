@@ -26,8 +26,11 @@ class Solution:
         return True
             
 def main():  
-    InputString = 'sator arepo tenet opera rotas.'
-    TrashSymbolsString = ' .,!@$'
+    # InputString = 'sator arepo tenet opera rotas.'
+    # TrashSymbolsString = ' .,!@$'
+    
+    InputString = input('InputString: ')
+    TrashSymbolsString = input('TrashSymbolsString: ')
     
     head = None
     tail = None
@@ -44,6 +47,8 @@ def main():
     solution = Solution()
     result = solution.isPalindrome(head)
     print(result)
+
+main()
 
 # if __name__ == '__main__':
 #     num_iterations = 100000

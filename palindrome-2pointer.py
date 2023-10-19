@@ -34,9 +34,12 @@ class Solution:
         return True
 
 def main():  
-    InputString = 'a@b!!b$a'
-    TrashSymbolsString = '!@$'
+    # InputString = 'a@b!!b$a'
+    # TrashSymbolsString = '!@$'
 
+    InputString = input('InputString: ') 
+    TrashSymbolsString = input('TrashSymbolsString: ')
+    
     head = None
     tail = None
     
