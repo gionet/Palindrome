@@ -20,10 +20,10 @@ InputString: a@b!!b$a
 TrashSymbolsString: !@$  
 Expected output: true  
   
-InputString: ?Aa#c
-TrashSymbolsString: #?
+InputString: ?Aa#c  
+TrashSymbolsString: #?  
 Result should be: false  
   
-InputString: Eva, can I see bees in a cave?
-TrashSymbolsString: #?
+InputString: Eva, can I see bees in a cave?  
+TrashSymbolsString: #?  
 Result should be: false
