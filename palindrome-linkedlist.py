@@ -2,7 +2,7 @@ import time
 
 # LINKED LIST METHOD
 # O(n) time
-# O(1) space
+# O(n) space
 
 class ListNode:
     def __init__(self, value, next=None):
